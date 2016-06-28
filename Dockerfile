@@ -12,6 +12,3 @@ COPY entrypoint.sh /
 RUN chmod a+x /entrypoint.sh
 
 WORKDIR /etc/nginx
-
-# Define default command.
-CMD ["nginx"]
